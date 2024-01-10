@@ -9,7 +9,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
-df = pd.read_csv("C:\\Users\\bodap\\Downloads\\diabetes_data_upload.csv")
+df = pd.read_csv(r"diabetes_data_upload.csv")
 label_encoder_gender = LabelEncoder()
 label_encoder_polyuria = LabelEncoder()
 label_encoder_polydipsia = LabelEncoder()
